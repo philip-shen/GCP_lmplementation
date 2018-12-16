@@ -120,6 +120,26 @@ Steps:
     python setup.py install
 
 ```
+
+Step 9. Setup GUI Desktop
+```
+Install the desktop
+```
+sudo apt-get install ubuntu-desktop
+```
+
+Install VNC server
+https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-16-04
+
+```
+sudo apt-get install xinit
+```
+
+and then run
+```
+startx
+```
+```
 ## Environment Configuration
 * Windows 10
 
@@ -127,9 +147,15 @@ Steps:
 * [【教學】Google Cloud Platform 申請試用，並建立免費專案！](https://izo.tw/gcp-apply/)
 * [【教學】Google Compute Engine ( GCE ) 使用 PuTTY SSH 登入實例](https://www.techcoke.com/2017/01/google-compute-engine-putty-ssh-instances.html)
 * [【教學】使用 PuTTYgen 產生 SSH 連線 RSA、DSA 公鑰與私鑰](https://www.techcoke.com/2017/01/puttygen-ssh-rsa-dsa-public-private-key-pair.html)
+* [鳥哥的 Linux 私房菜 第十一章、遠端連線伺服器SSH / XDMCP / VNC / RDP](http://linux.vbird.org/linux_server/0310telnetssh.php) 
 * [Connecting Securely to Google Compute Engine Server with SFTP](https://winscp.net/eng/docs/guide_google_compute_engine)
 * [How do I install Python 3.6 using apt-get?](https://askubuntu.com/questions/865554/how-do-i-install-python-3-6-using-apt-get)
 * [How To Install PIP to Manage Python Packages in Linux](https://www.tecmint.com/install-pip-in-linux/)
 * [Installing packages using pip and virtualenv](https://packaging.python.org/guides/installing-using-pip-and-virtualenv/#creating-a-virtualenv)
+* [How to open a browser on a Google Compute Engine VM](https://stackoverflow.com/questions/46207046/how-to-open-a-browser-on-a-google-compute-engine-vm)
+* [How to Install and Configure VNC on Ubuntu 16.04 ](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-16-04)
+* [What is the simplest way to have remote GUI access to Ubuntu 16.04 “server” from Ubuntu 16.04 “desktop”?](https://askubuntu.com/questions/886313/what-is-the-simplest-way-to-have-remote-gui-access-to-ubuntu-16-04-server-from) 
+* [Your desktop on Google Cloud Platform VNC on Google Compute Engine instances](https://medium.com/google-cloud/linux-gui-on-the-google-cloud-platform-800719ab27c5)
+* [VNCViewer fonts Font directory '/usr/share/fonts/X11/75dpi/' not found - ignoring Font directory '/usr/share/fonts/X11/100dpi/' not found - ignoring](https://raspberrypi.stackexchange.com/questions/10452/vncviewer-fonts)
 * [Get error on pip install · Issue #285 · freqtrade/freqtrade · GitHub](https://github.com/freqtrade/freqtrade/issues/285)
 * [Unable to install TA-Lib on Ubuntu](https://stackoverflow.com/questions/45406213/unable-to-install-ta-lib-on-ubuntu)
