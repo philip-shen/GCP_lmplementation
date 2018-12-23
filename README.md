@@ -120,7 +120,7 @@ Steps:
 ```
 
 Step 10. Setup GUI Desktop
-```
+
 Install the desktop
 ```
 sudo apt-get install ubuntu-desktop
@@ -137,7 +137,7 @@ and then run
 ```
 startx
 ```
-```
+
 ## Environment Configuration
 * Windows 10
 
