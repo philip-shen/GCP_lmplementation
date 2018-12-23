@@ -66,7 +66,7 @@ Note: We will run all commands as the root user, if you are managing your system
 ``` 
 
 Step 7. Install packages using pip and virtualenv
-```
+
 Installing virtualenv
 
 On macOS and Linux:
@@ -101,15 +101,13 @@ Leaving the virtualenv
 deactivate
 ```
 
-```
-
 Step 8. Install modules under virtualenv
 ```
 python -m  pip install -r ./requiremenets.txt
 
 ```
 
-Step 8. TA-Lib modules under virtualenv
+Step 9. TA-Lib modules under virtualenv
 ```
 Steps:
     sudo apt-get install python3.6-dev
@@ -121,7 +119,7 @@ Steps:
 
 ```
 
-Step 9. Setup GUI Desktop
+Step 10. Setup GUI Desktop
 ```
 Install the desktop
 ```
@@ -159,3 +157,4 @@ startx
 * [VNCViewer fonts Font directory '/usr/share/fonts/X11/75dpi/' not found - ignoring Font directory '/usr/share/fonts/X11/100dpi/' not found - ignoring](https://raspberrypi.stackexchange.com/questions/10452/vncviewer-fonts)
 * [Get error on pip install · Issue #285 · freqtrade/freqtrade · GitHub](https://github.com/freqtrade/freqtrade/issues/285)
 * [Unable to install TA-Lib on Ubuntu](https://stackoverflow.com/questions/45406213/unable-to-install-ta-lib-on-ubuntu)
+* [[Ubuntu] 安裝LAMP PHP7 , Apache2 , MaraiDB 版本：16.04](http://holmes.logdown.com/posts/734144-linux-ubuntu-install-ubuntu-1604-lamp-php7-apache2-maraidb)
