@@ -15,13 +15,12 @@ Reference 01:
 ``` 
 
 Step 2. Creat private and publiv key for SSH Connection.
-``` 
+
 Reference 03:
 
-``` 
 
 Step 3. Establish SSH session configuration on GCP consel
-``` 
+
 Reference 02:
 
 首先，變更 Key comment。在 Key comment 日期的後面，輸入你申請 Google Cloud Platform 時「@gmail.com」前的名稱。如果申請的 gmail 為 ilovetechcoke@gmail.com 就在日期後面輸入「ilovetechcoke」。
@@ -29,7 +28,7 @@ Reference 02:
 下圖的例子為「techcoke」，完整輸入就是「rsa-key-20170120techcoke」。(* 這裡的日期，會和你操作時的日期不相同，以你當前建立密鑰對的時間為準。)
 
 變更完 Key comment 之後，將 PuTTYgen 上方 OpenSSH authorized_keys 裡面的公鑰資料先做複製，最後再按下「Save private key」，將私鑰儲存到電腦中。
-``` 
+
 
 Step 4. Connecting Securely to Google Compute Engine Server with SFTP
 ``` 
@@ -45,22 +44,24 @@ Step 4. Connecting Securely to Google Compute Engine Server with SFTP
 ``` 
 
 Step 5. Python 3.6.6 to Ubuntu 16.04.1
-``` 
+ 
 Ubuntu 14.04 (Trusty), 16.04 (Xenial)
 
-If you are using Ubuntu 14.04 or 16.04, you can use Felix Krull's deadsnakes PPA at https://launchpad.net/~deadsnakes/+archive/ubuntu/ppa:
+If you are using Ubuntu 14.04 or 16.04, 
+you can use Felix Krull's deadsnakes PPA at https://launchpad.net/~deadsnakes/+archive/ubuntu/ppa:
+
 ``` 
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt-get update
 sudo apt-get install python3.6
 ``` 
-
-``` 
+ 
 
 Step 6. Install PIP On Debian/Ubuntu
-``` 
+
 Note: We will run all commands as the root user, if you are managing your system as a normal user, then use the sudo command to get root privileges or you can as well configure your system to run sudo command without entering a password, it’s possible. Try it out!
 
+``` 
 # apt install python-pip	#python 2
 # apt install python3-pip	#python 3
 ``` 
@@ -158,3 +159,9 @@ startx
 * [Get error on pip install · Issue #285 · freqtrade/freqtrade · GitHub](https://github.com/freqtrade/freqtrade/issues/285)
 * [Unable to install TA-Lib on Ubuntu](https://stackoverflow.com/questions/45406213/unable-to-install-ta-lib-on-ubuntu)
 * [[Ubuntu] 安裝LAMP PHP7 , Apache2 , MaraiDB 版本：16.04](http://holmes.logdown.com/posts/734144-linux-ubuntu-install-ubuntu-1604-lamp-php7-apache2-maraidb)
+* [Ubuntu 16.04 在 Apache2.4 用 mod_php 跑 PHP7.0 ](https://shazi.info/ubuntu-16-04-%E5%9C%A8-apache2-4-%E7%94%A8-mod_php-%E8%B7%91-php7-0/)
+* [Ubuntu Apache 2.4 正確使用conf、mods、sites等設定檔。](http://mickey-tang.blogspot.com/2018/04/ubuntu-apache-24-confmodssites.html)
+* [Ubuntu Apache 2.4 啟動SSL ](http://mickey-tang.blogspot.com/2015/08/ubuntu-apache-24-ssl.html)
+* [Let’s encrypt on Apache 使用 https 加密連線，讓你的 Apache 網站更安全](https://ccnrz.wordpress.com/2017/05/19/lets-encrypt-on-apache/)
+* [Ubuntu Apache 上用自簽憑證啟用 https 服務](https://ccnrz.wordpress.com/2017/05/04/%E5%9C%A8-ubuntu-apache-%E4%B8%8A%E5%95%9F%E7%94%A8-https-%E8%87%AA%E7%B0%BD%E6%86%91%E8%AD%89/)
+* [How To Create a SSL Certificate on Apache for Ubuntu 14.04 ](https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-apache-for-ubuntu-14-04)
