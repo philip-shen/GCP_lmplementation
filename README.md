@@ -165,3 +165,4 @@ startx
 * [Let’s encrypt on Apache 使用 https 加密連線，讓你的 Apache 網站更安全](https://ccnrz.wordpress.com/2017/05/19/lets-encrypt-on-apache/)
 * [Ubuntu Apache 上用自簽憑證啟用 https 服務](https://ccnrz.wordpress.com/2017/05/04/%E5%9C%A8-ubuntu-apache-%E4%B8%8A%E5%95%9F%E7%94%A8-https-%E8%87%AA%E7%B0%BD%E6%86%91%E8%AD%89/)
 * [How To Create a SSL Certificate on Apache for Ubuntu 14.04 ](https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-apache-for-ubuntu-14-04)
+* [Change password on root user and user account](https://askubuntu.com/questions/423942/change-password-on-root-user-and-user-account)
