@@ -141,10 +141,10 @@ startx
 
 ## Troubleshooting
 phpMyAdmin turn blank page after login:
-![alt tag](https://i.imgur.com/X2lXYsx.jpg)
+![alt tag](https://i.imgur.com/JgJiKyL.jpg)
 
 Solution: Change another browser, casue $cfg['Servers'][$i]['auth_type'] = 'cookie' at /etc/phpmyadmin/config.inc.php
-![alt tag](https://i.imgur.com/2mZeGNo.jpg)
+![alt tag](https://i.imgur.com/VdXMfaa.jpg)
 
 
 
