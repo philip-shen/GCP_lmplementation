@@ -139,8 +139,18 @@ and then run
 startx
 ```
 
+## Troubleshooting
+phpMyAdmin turn blank page after login:
+![alt tag](https://i.imgur.com/X2lXYsx.jpg)
+
+Solution: Change another browser, casue $cfg['Servers'][$i]['auth_type'] = 'cookie' at /etc/phpmyadmin/config.inc.php
+![alt tag](https://i.imgur.com/2mZeGNo.jpg)
+
+
+
+
 ## Environment Configuration
-* Windows 10
+* via Putty on Windows 10
 
 ## Reference 
 * [【教學】Google Cloud Platform 申請試用，並建立免費專案！](https://izo.tw/gcp-apply/)
@@ -167,3 +177,4 @@ startx
 * [How To Create a SSL Certificate on Apache for Ubuntu 14.04 ](https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-apache-for-ubuntu-14-04)
 * [Change password on root user and user account](https://askubuntu.com/questions/423942/change-password-on-root-user-and-user-account)
 * [Cannot enter phpmyadmin as root (MySQL 5.7)](https://askubuntu.com/questions/763336/cannot-enter-phpmyadmin-as-root-mysql-5-7)
+* [Ubuntu 16.04.1 Server(PHP 7.06)安裝 phpmyadmin 後登入的問題 已將 /etc/phpmyadmin/config.inc.php 其中的 $cfg['Servers'][$i]['auth_type'] = 'cookie'; 修改為 $cfg['Servers'][$i]['auth_type'] = 'http';](https://ithelp.ithome.com.tw/questions/10184428)
