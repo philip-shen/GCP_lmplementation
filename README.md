@@ -139,8 +139,18 @@ and then run
 startx
 ```
 
+## Troubleshooting
+phpMyAdmin turn blank page after login:
+![alt tag](https://i.imgur.com/JgJiKyL.jpg)
+
+Solution: Change another browser, casue $cfg['Servers'][$i]['auth_type'] = 'cookie' at /etc/phpmyadmin/config.inc.php
+![alt tag](https://i.imgur.com/VdXMfaa.jpg)
+
+
+
+
 ## Environment Configuration
-* Windows 10
+* via Putty on Windows 10
 
 ## Reference 
 * [【教學】Google Cloud Platform 申請試用，並建立免費專案！](https://izo.tw/gcp-apply/)
@@ -165,6 +175,7 @@ startx
 * [Let’s encrypt on Apache 使用 https 加密連線，讓你的 Apache 網站更安全](https://ccnrz.wordpress.com/2017/05/19/lets-encrypt-on-apache/)
 * [Ubuntu Apache 上用自簽憑證啟用 https 服務](https://ccnrz.wordpress.com/2017/05/04/%E5%9C%A8-ubuntu-apache-%E4%B8%8A%E5%95%9F%E7%94%A8-https-%E8%87%AA%E7%B0%BD%E6%86%91%E8%AD%89/)
 * [How To Create a SSL Certificate on Apache for Ubuntu 14.04 ](https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-apache-for-ubuntu-14-04)
+<<<<<<< HEAD
 * [ubuntu 基礎架站](http://www.alvinchen.club/2018/04/12/ubuntu-%E5%9F%BA%E7%A4%8E%E6%9E%B6%E7%AB%99/)
 * [讓你的 apache支援ssl](http://www.alvinchen.club/2018/04/13/%e8%ae%93%e4%bd%a0%e7%9a%84apache%e6%94%af%e6%8f%b4ssl/)
 * [ubuntu 進階架站分享](http://www.alvinchen.club/2018/04/13/ubuntu-%e6%9e%b6%e7%ab%99%e9%80%b2%e9%9a%8e%e5%88%86%e4%ba%ab/)
@@ -183,3 +194,8 @@ startx
 * [MongoDB (2) 创建用户及密码(授权)](https://konfido.github.io/2018/07/14/MongoDB-2-auth/)
 * [MongoDB (3) 各种错误解决方法](https://konfido.github.io/2018/07/14/MongoDB-3-errors/)
 * [在Ubuntu 16.04上安裝、使用、解除安裝MongoDB](https://www.itread01.com/content/1545355444.html)
+=======
+* [Change password on root user and user account](https://askubuntu.com/questions/423942/change-password-on-root-user-and-user-account)
+* [Cannot enter phpmyadmin as root (MySQL 5.7)](https://askubuntu.com/questions/763336/cannot-enter-phpmyadmin-as-root-mysql-5-7)
+* [Ubuntu 16.04.1 Server(PHP 7.06)安裝 phpmyadmin 後登入的問題 已將 /etc/phpmyadmin/config.inc.php 其中的 $cfg['Servers'][$i]['auth_type'] = 'cookie'; 修改為 $cfg['Servers'][$i]['auth_type'] = 'http';](https://ithelp.ithome.com.tw/questions/10184428)
+>>>>>>> f10b26782b6d6d559676f6f84dd3555757bb3342
