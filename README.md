@@ -199,3 +199,8 @@ Solution: Change another browser, casue $cfg['Servers'][$i]['auth_type'] = 'cook
 * [Cannot enter phpmyadmin as root (MySQL 5.7)](https://askubuntu.com/questions/763336/cannot-enter-phpmyadmin-as-root-mysql-5-7)
 * [Ubuntu 16.04.1 Server(PHP 7.06)安裝 phpmyadmin 後登入的問題 已將 /etc/phpmyadmin/config.inc.php 其中的 $cfg['Servers'][$i]['auth_type'] = 'cookie'; 修改為 $cfg['Servers'][$i]['auth_type'] = 'http';](https://ithelp.ithome.com.tw/questions/10184428)
 >>>>>>> f10b26782b6d6d559676f6f84dd3555757bb3342
+* [Install MongoDB Community Edition on Ubuntu](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/#install-mongodb-community-edition)
+* [MongoDB (1) 安装（apt-get）及使用(4.0.0版)](https://konfido.github.io/2018/07/13/MongoDB-1-install/)
+* [MongoDB (2) 创建用户及密码(授权)](https://konfido.github.io/2018/07/14/MongoDB-2-auth/)
+* [MongoDB (3) 各种错误解决方法](https://konfido.github.io/2018/07/14/MongoDB-3-errors/)
+* [在Ubuntu 16.04上安裝、使用、解除安裝MongoDB](https://www.itread01.com/content/1545355444.html)
