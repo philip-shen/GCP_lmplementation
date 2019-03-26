@@ -4,16 +4,14 @@ Google Cloud Platform Hosting Implementation guide
 # Implementation
 
 ## Step 1.GCP Application. 
+* [【教學】Google Cloud Platform 申請試用，並建立免費專案！](https://izo.tw/gcp-apply/)
 ``` 
-Reference 01:
 ※　注意
 點開 管理、磁碟、網路、SSH 金鑰
 選擇『網路』 → 外部IP → 新增『新的靜態 IP 位址』
 ※ 如果此步沒做，往後每次除開機IP將會變動
-
-(https://lh5.googleusercontent.com/-x69xzePFVP0/TdesS4b6UsI/AAAAAAAABaU/iDGAZV8PP_8/s0/subnettingcfe8.png)
-
 ``` 
+![alt tag](https://lh5.googleusercontent.com/-x69xzePFVP0/TdesS4b6UsI/AAAAAAAABaU/iDGAZV8PP_8/s0/subnettingcfe8.png)
 
 ## Step 2. Creat private and publiv key for SSH Connection.
 
