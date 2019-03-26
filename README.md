@@ -184,7 +184,7 @@ Solution: Change another browser, casue $cfg['Servers'][$i]['auth_type'] = 'cook
 * [How To Set Up Apache Virtual Hosts on Ubuntu 14.04 LTS ](https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts)
 * [How To Set Up mod_rewrite for Apache on Ubuntu 14.04 ](https://www.digitalocean.com/community/tutorials/how-to-set-up-mod_rewrite-for-apache-on-ubuntu-14-04)
 * [安裝 LAMP Server + phpMyAdmin 在 Linux 系統上輕鬆架設網站](https://magiclen.org/lamp/)
-* [安裝 LNAMP Server + phpMyAdmin 在 Linux 系統上輕鬆架設網站](https://magiclen.org/lnamp/)
+
 * [Nginx+Apache+PHP ](http://blog.kenyang.net/2012/09/18/nginxapachephp)
 * [Ubuntu16.04+Apache虛擬主機配置詳解](https://hk.saowen.com/a/7b1f0ea4b830876fbf2be10ba9e298b95171c0b0e5d680c539d96c60e42576e3)
 * []()
