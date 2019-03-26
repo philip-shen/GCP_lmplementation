@@ -1,8 +1,9 @@
 # GCP_lmplementation
 Google Cloud Platform Hosting Implementation guide
 
-## Implementation
-Step 1.GCP Application. 
+# Implementation
+
+## Step 1.GCP Application. 
 ``` 
 Reference 01:
 ※　注意
@@ -14,14 +15,15 @@ Reference 01:
 
 ``` 
 
-Step 2. Creat private and publiv key for SSH Connection.
+## Step 2. Creat private and publiv key for SSH Connection.
 
-Reference 03:
+* [【教學】使用 PuTTYgen 產生 SSH 連線 RSA、DSA 公鑰與私鑰](https://www.techcoke.com/2017/01/puttygen-ssh-rsa-dsa-public-private-key-pair.html)
 
 
-Step 3. Establish SSH session configuration on GCP consel
+## Step 3. Establish SSH session configuration on GCP consel
 
-Reference 02:
+* [【教學】Google Compute Engine ( GCE ) 使用 PuTTY SSH 登入實例](https://www.techcoke.com/2017/01/google-compute-engine-putty-ssh-instances.html)
+
 
 首先，變更 Key comment。在 Key comment 日期的後面，輸入你申請 Google Cloud Platform 時「@gmail.com」前的名稱。如果申請的 gmail 為 ilovetechcoke@gmail.com 就在日期後面輸入「ilovetechcoke」。
 
@@ -30,7 +32,7 @@ Reference 02:
 變更完 Key comment 之後，將 PuTTYgen 上方 OpenSSH authorized_keys 裡面的公鑰資料先做複製，最後再按下「Save private key」，將私鑰儲存到電腦中。
 
 
-Step 4. Connecting Securely to Google Compute Engine Server with SFTP
+## Step 4. Connecting Securely to Google Compute Engine Server with SFTP
 ``` 
  Set up SSH keys for your Google Compute account:
 
@@ -43,7 +45,7 @@ Step 4. Connecting Securely to Google Compute Engine Server with SFTP
     On the bottom of the page, click Save and wait for the key to be saved.
 ``` 
 
-Step 5. Python 3.6.6 to Ubuntu 16.04.1
+## Step 5. Python 3.6.6 to Ubuntu 16.04.1
  
 Ubuntu 14.04 (Trusty), 16.04 (Xenial)
 
@@ -57,7 +59,7 @@ sudo apt-get install python3.6
 ``` 
  
 
-Step 6. Install PIP On Debian/Ubuntu
+## Step 6. Install PIP On Debian/Ubuntu
 
 Note: We will run all commands as the root user, if you are managing your system as a normal user, then use the sudo command to get root privileges or you can as well configure your system to run sudo command without entering a password, it’s possible. Try it out!
 
@@ -66,7 +68,7 @@ Note: We will run all commands as the root user, if you are managing your system
 # apt install python3-pip	#python 3
 ``` 
 
-Step 7. Install packages using pip and virtualenv
+## Step 7. Install packages using pip and virtualenv
 
 Installing virtualenv
 
@@ -102,13 +104,13 @@ Leaving the virtualenv
 deactivate
 ```
 
-Step 8. Install modules under virtualenv
+## Step 8. Install modules under virtualenv
 ```
 python -m  pip install -r ./requiremenets.txt
 
 ```
 
-Step 9. TA-Lib modules under virtualenv
+## Step 9. TA-Lib modules under virtualenv
 ```
 Steps:
     sudo apt-get install python3.6-dev
@@ -120,7 +122,7 @@ Steps:
 
 ```
 
-Step 10. Setup GUI Desktop
+## Step 10. Setup GUI Desktop
 
 Install the desktop
 ```
@@ -139,7 +141,7 @@ and then run
 startx
 ```
 
-## Troubleshooting
+# Troubleshooting
 phpMyAdmin turn blank page after login:
 ![alt tag](https://i.imgur.com/JgJiKyL.jpg)
 
@@ -149,10 +151,10 @@ Solution: Change another browser, casue $cfg['Servers'][$i]['auth_type'] = 'cook
 
 
 
-## Environment Configuration
+# Environment Configuration
 * via Putty on Windows 10
 
-## Reference 
+# Reference 
 * [【教學】Google Cloud Platform 申請試用，並建立免費專案！](https://izo.tw/gcp-apply/)
 * [【教學】Google Compute Engine ( GCE ) 使用 PuTTY SSH 登入實例](https://www.techcoke.com/2017/01/google-compute-engine-putty-ssh-instances.html)
 * [【教學】使用 PuTTYgen 產生 SSH 連線 RSA、DSA 公鑰與私鑰](https://www.techcoke.com/2017/01/puttygen-ssh-rsa-dsa-public-private-key-pair.html)
