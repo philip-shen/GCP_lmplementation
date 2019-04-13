@@ -15,6 +15,9 @@ Google Cloud Platform Hosting Implementation guide
 [Step 10. Setup GUI Desktop](#step-10-setup-gui-desktop)  
 
 [Troubleshooting](#troubleshooting)  
+[phpMyAdmin turn blank page after login:](#phpmyadmin-turn-blank-page-after-login)  
+[Adding or Resizing Zonal Persistent Disks](#adding-or-resizing-zonal-persistent-disks)  
+[]()  
 [Environment Configuration](#environment-configuration)  
 [Reference](#reference)  
 
@@ -176,6 +179,7 @@ Solution: Change another browser, casue $cfg['Servers'][$i]['auth_type'] = 'cook
 > sudo resize2fs /dev/[DEVICE_ID][PARTITION_NUMBER]  
 ### step 6 make sure reslut
 > df -h  
+
 ![alt tag](https://i.imgur.com/vtdAYNN.jpg)  
 
 # Environment Configuration
