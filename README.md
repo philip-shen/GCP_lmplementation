@@ -157,14 +157,26 @@ startx
 ```
 
 # Troubleshooting
-phpMyAdmin turn blank page after login:
-![alt tag](https://i.imgur.com/JgJiKyL.jpg)
+## phpMyAdmin turn blank page after login:
+![alt tag](https://i.imgur.com/JgJiKyL.jpg)  
 
 Solution: Change another browser, casue $cfg['Servers'][$i]['auth_type'] = 'cookie' at /etc/phpmyadmin/config.inc.php
 ![alt tag](https://i.imgur.com/VdXMfaa.jpg)
 
-
-
+## Adding or Resizing Zonal Persistent Disks
+* [Adding or Resizing Zonal Persistent Disks | Compute Engine ...](https://cloud.google.com/compute/docs/disks/add-persistent-disk#resize_partitions)  
+### step 1 Compute engine -> Disk -> Select VM you want to resize -> Edit -> Modify Size volume  
+### step 2 SSH Console  
+> df -h  
+### step 3 Check Disk partion status  
+> sudo lsblk  
+### step 4 add space between [DEVICE_ID] and [PARTITION_NUMBER]
+> $ sudo growpart /dev/[DEVICE_ID] [PARTITION_NUMBER]  
+### step 5 no space between [DEVICE_ID] and [PARTITION_NUMBER]
+> sudo resize2fs /dev/[DEVICE_ID][PARTITION_NUMBER]  
+### step 6 make sure reslut
+> df -h  
+![alt tag](https://i.imgur.com/vtdAYNN.jpg)  
 
 # Environment Configuration
 * via Putty on Windows 10
