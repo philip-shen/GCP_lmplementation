@@ -1,6 +1,23 @@
 # GCP_lmplementation
 Google Cloud Platform Hosting Implementation guide
 
+# Table of Contents  
+[Implementation](#implementation)  
+[Step 1.GCP Application.](#step-1gcp-application)  
+[Step 2. Creat private and publiv key for SSH Connection.](#step-2-creat-private-and-publiv-key-for-ssh-connection)  
+[Step 3. Establish SSH session configuration on GCP consel](#step-3-establish-ssh-session-configuration-on-gcp-consel)  
+[Step 4. Connecting Securely to Google Compute Engine Server with SFTP](#step-4-connecting-securely-to-google-compute-engine-server-with-sftp)  
+[Step 5. Python 3.6.6 to Ubuntu 16.04.1](#step-5-python-366-to-ubuntu-16041)  
+[Step 6. Install PIP On Debian/Ubuntu](#step-6-install-pip-on-debianubuntu)  
+[Step 7. Install packages using pip and virtualenv](#step-7-install-packages-using-pip-and-virtualenv)  
+[Step 8. Install modules under virtualenv](#step-8-install-modules-under-virtualenv)  
+[Step 9. TA-Lib modules under virtualenv](#step-9-ta-lib-modules-under-virtualenv)  
+[Step 10. Setup GUI Desktop](#step-10-setup-gui-desktop)  
+
+[Troubleshooting](#troubleshooting)  
+[Environment Configuration](#environment-configuration)  
+[Reference](#reference)  
+
 # Implementation
 
 ## Step 1.GCP Application. 
